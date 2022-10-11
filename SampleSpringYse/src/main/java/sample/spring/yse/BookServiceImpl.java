@@ -21,7 +21,12 @@ public class BookServiceImpl implements BookService {
 	        return map.get("book_id").toString();
 	    }
 	    return null;
-
 	}
+	
+	@Override
+	public Map<String, Object> detail(Map<String, Object> map){
+		return this.bookDao.select_detail(map);
+	}
+	
 
 }
