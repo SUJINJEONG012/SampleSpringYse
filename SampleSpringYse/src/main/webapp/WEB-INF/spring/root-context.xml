@@ -5,7 +5,6 @@
 
 	<!-- Root Context: defines shared resources visible to all other web components -->
 	<!-- for mysql -->
-	<!-- for mysql -->
 	<bean id="dataSource"
 		class="org.apache.commons.dbcp2.BasicDataSource"
 		destroy-method="close">
